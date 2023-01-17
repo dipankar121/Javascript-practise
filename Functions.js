@@ -68,3 +68,57 @@
 //   }
 // }
 // console.log(count);
+
+// 8. Write a JavaScript function that accepts a number as a parameter and check the number is prime or not.
+// let x = 23;
+// let count = 0;
+// for (let i = 2; i <= x; i++) {
+//   if (x % i === 0) {
+//     count = count + 1;
+//   }
+// }
+// if (count === 1) {
+//   console.log("prime");
+// } else {
+//   console.log("not prime");
+// }
+
+// 9. Write a JavaScript function which accepts an argument and returns the type.
+// let x = 9;
+// console.log(typeof x);
+
+// 10. Write a JavaScript function which returns the n rows by n columns identity matrix.
+// let n = 3;
+// let arr = "";
+// for (let i = 0; i <= n - 1; i++) {
+//   for (let j = 0; j <= n - 1; j++) {
+//     if (i === j) {
+//       arr = arr + 1 + " ";
+//     } else {
+//       arr = arr + 0 + " ";
+//     }
+//   }
+//   arr = arr + "\n";
+// }
+// console.log(arr);
+
+// 11. Write a JavaScript function which will take an array of numbers stored and find the second lowest and second greatest numbers, respectively.
+// let x = [1, 2, 3, 4, 5];
+// let y = x.sort();
+// console.log(y[1], y[y.length - 2]);
+
+// 12. Write a JavaScript function which says whether a number is perfect.
+
+// 13. Write a JavaScript function to compute the factors of a positive integer
+// let x = 50;
+// let factors = "";
+// for (let i = 0; i <= x; i++) {
+//   if (x % i === 0) {
+//     factors = factors + i + " ";
+//   }
+// }
+// console.log("factors:", factors);
+
+// 14. Write a JavaScript function to convert an amount to coins. Sample function : amountTocoins(46, [25, 10, 5, 2, 1])
+// Here 46 is the amount. and 25, 10, 5, 2, 1 are coins.
+// Output : 25, 10, 10, 1
