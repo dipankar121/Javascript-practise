@@ -13,6 +13,14 @@
 const input = [1, 2, -2, 11, 7, 1, 11];
 let arr = input.sort((a, b) => a - b);
 console.log(arr);
-let newArr = new Set(arr);
-let finalArr = [...newArr];
-console.log(finalArr[finalArr.length - 2]);
+// let newArr = new Set(arr);
+// let finalArr = [...newArr];
+// console.log(finalArr[finalArr.length - 2]);
+// let res = [];
+// for (let i = 0; i <= arr.length - 1; i++) {
+//   if (res.indexOf(arr[i]) === -1) {
+//     res.push(arr[i]);
+//   }
+// }
+// console.log(res);
+// console.log(res[res.length - 2]);
