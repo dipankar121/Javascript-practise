@@ -10,9 +10,9 @@
 // console.log(res);
 
 // 2.
-const input = [1, 2, -2, 11, 7, 1, 11];
-let arr = input.sort((a, b) => a - b);
-console.log(arr);
+// const input = [1, 2, -2, 11, 7, 1, 11];
+// let arr = input.sort((a, b) => a - b);
+// console.log(arr);
 // let newArr = new Set(arr);
 // let finalArr = [...newArr];
 // console.log(finalArr[finalArr.length - 2]);
@@ -24,3 +24,8 @@ console.log(arr);
 // }
 // console.log(res);
 // console.log(res[res.length - 2]);
+
+// 3.
+let input = [2, 7, 11, 4, -2];
+let res = [...input.slice(2), ...input.slice(0, 2)];
+console.log(res);
