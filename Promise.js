@@ -336,10 +336,13 @@
 
 // 12.
 let task = new Promise((resolve, reject) => {
+  console.log("start");
   setTimeout(() => {
+    //   Either resolve or reject. Both cannot occur together
     // resolve("resolved");
     reject("rejected");
   }, 1000);
+  console.log("end");
 });
 
 task
